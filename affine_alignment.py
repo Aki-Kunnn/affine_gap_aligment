@@ -1,7 +1,6 @@
 import sys
 from typing import List, Dict, Iterable, Tuple
 
-# Please do not remove package declarations because these are used by the autograder.
 def graphConstruction(v: str, w:str, match_reward: int, mismatch_penalty: int, gap_opening_penalty: int, gap_extension_penalty: int):
     
     print()
@@ -262,4 +261,5 @@ score, aligned1, aligned2 = affine_alignment(match, mismatch, opening, extension
 print()
 print("Score: " + str(score))
 print("Aligned1: "  + aligned1)
+
 print("Aligned2: " + aligned2)
